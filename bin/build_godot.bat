@@ -1,16 +1,3 @@
-cd ..
-
-rem EDITOR
-rem scons -j10 platform=windows tools=yes target=release_debug bits=64 use_lto=yes
-
-rem RELEASE SPEED/SIZE TEMPLATES
-rem scons -j10 platform=windows tools=no target=release bits=64 use_lto=yes
-rem scons -j10 platform=windows tools=no target=release bits=64 use_lto=yes optimize=size
-
-rem RELEASE SPEED/SIZE TEMPLATES
-rem scons -j10 platform=windows tools=no target=release bits=64 use_lto=yes
-rem scons -j10 platform=windows tools=no target=release bits=64 use_lto=yes optimize=size
-
-rem DEBUG SPEED/SIZE TEMPLATES
-rem scons -j10 platform=windows tools=no target=release_debug bits=64 use_lto=yes
-rem scons -j10 platform=windows tools=no target=release_debug bits=64 use_lto=yes optimize=size
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfa3d8960669049c66d4d71ae93e4054afdcea7ce2d98b27111d70995d68134b
+size 511
